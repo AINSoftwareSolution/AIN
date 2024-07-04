@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-      AIn
+      <h1>AIN software solutions</h1>
     </>
   );
 }
