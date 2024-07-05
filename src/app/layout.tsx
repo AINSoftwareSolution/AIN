@@ -7,6 +7,7 @@ import "./Utilis/lib/animate/animate.css"
 import "./Utilis/lib/animate/animate.min.css"
 import "./globals.css";
 import "./Utilis/lib/animate/bootstrap.min.css"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -42,7 +42,7 @@ const Footer = () => {
                                         <p className="mb-0">+012 345 67890</p>
                                     </div>
                                     <div className="d-flex mt-4">
-                                        <Link className="btn btn-primary btn-square me-2" href="#"><i className="fab fa-twitter fw-normal"></i></Link>
+                                        <Link className="btn btn-primary text-light btn-square me-2" href="#"><i className="fab fa-twitter fw-normal"></i></Link>
                                         <Link className="btn btn-primary btn-square me-2" href="#"><i className="fab fa-facebook-f fw-normal"></i></Link>
                                         <Link className="btn btn-primary btn-square me-2" href="#"><i className="fab fa-linkedin-in fw-normal"></i></Link>
                                         <Link className="btn btn-primary btn-square" href="#"><i className="fab fa-instagram fw-normal"></i></Link>

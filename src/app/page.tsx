@@ -1,19 +1,12 @@
-"use client";
+import { AboutUs } from "./container";
 
-import AboutUs from './container/aboutus'
 
 const Home = () => {
   return (
-    <>
-     <div>
-     
-       <AboutUs/>
-    
-      
-       </div>
-
-    </>
-
+    <div>
+      <i className="bi bi-list"></i>
+      <AboutUs />
+    </div>
   );
 }
 export default Home
