@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { Footer } from "./component";
+import { Footer, Navbar } from "./component";
 
 // import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
 import "./Utilis/lib/animate/animate.css"
@@ -8,6 +8,7 @@ import "./Utilis/lib/animate/animate.min.css"
 import "./globals.css";
 import "./Utilis/lib/animate/bootstrap.min.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        {/* <!-- Google Web Fonts --> */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      </Head>
       <body className={inter.className}>
+        <Navbar />
         {children}
         <Footer />
       </body>
