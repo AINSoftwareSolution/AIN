@@ -1,9 +1,19 @@
+"use client";
 
+import AboutUs from './container/aboutus'
 
-export default function Home() {
+const Home = () => {
   return (
     <>
-      <h1>AIN software solutions</h1>
+     <div>
+     
+       <AboutUs/>
+    
+      
+       </div>
+
     </>
+
   );
 }
+export default Home

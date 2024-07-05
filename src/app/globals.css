@@ -1,4 +1,7 @@
 /********** Template CSS **********/
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 :root {
   --primary: #06A3DA;
   --secondary: #34AD54;
