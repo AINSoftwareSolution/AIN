@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
+import { Footer } from "./component";
+
+// import "bootstrap/dist/css/bootstrap.min.css"; // Import bootstrap CSS
+import "./Utilis/lib/animate/animate.css"
+import "./Utilis/lib/animate/animate.min.css"
 import "./globals.css";
+import "./Utilis/lib/animate/bootstrap.min.css"
+import "bootstrap-icons/font/bootstrap-icons.css"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
