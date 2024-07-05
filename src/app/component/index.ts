@@ -1,3 +1,4 @@
-import Footer from "./layout/Footer"
+import Footer from "./layout/Footer";
+import Navbar from "./layout/Navbar";
 
-export {Footer}
+export { Footer, Navbar };
