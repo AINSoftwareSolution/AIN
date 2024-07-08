@@ -1,3 +1,4 @@
 import AboutUs from "./aboutus";
+import Quote from "./quote";
 
-export { AboutUs };
+export { AboutUs, Quote };
