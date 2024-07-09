@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const pricingPlan = () => {
+const PricingPlan = () => {
     return (
         <div>
             {/* Pricing Plan Start */}
@@ -162,4 +162,4 @@ const pricingPlan = () => {
     )
 }
 
-export default pricingPlan
+export default PricingPlan
