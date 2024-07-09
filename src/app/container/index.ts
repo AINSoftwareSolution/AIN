@@ -1,4 +1,7 @@
 import AboutUs from "./aboutus";
-import Quote from "./quote";
+import PricingPlan from "./pricingPlan";
+import Quote from "./quote"; 
+import Services from "./services";
+import WhyChooseUs from "./whyChooseUs";
 
-export { AboutUs, Quote };
+export { AboutUs, PricingPlan, Services, Quote , WhyChooseUs};
