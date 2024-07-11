@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-// import WhyImage from "./Utilis/img/why-img.jpg";
+// import WhyChImg from "..//src/Utilis/img/why-img2.PNG"
 
 const ProgrammaticsAds = () => {
   return (
@@ -25,7 +25,8 @@ const ProgrammaticsAds = () => {
       <div className="container mt-4 mb-4">
         <div className="row">
           <div className="col-md-6 col-6">
-            <img src="/why-img2.PNG" alt="WHy Image" className="" />
+            {/* <Image src={WhyImage} alt="why-image" width={500} height={500} /> */}
+            <img src="/why-img2.PNG" alt="WHy-Image" className="" />
           </div>
           <div className="col-md-6 col-6">
             <div className="text-start mt-4">
