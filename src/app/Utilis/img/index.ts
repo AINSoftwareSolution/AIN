@@ -1,7 +1,5 @@
 import AboutImg from "./about.jpg";
-import FeatureImg from "./feature.jpg"
+import ads from "./ads.png";
+import FeatureImg from "./feature.jpg";
 
-export { AboutImg,
-        FeatureImg
-
- };
+export { AboutImg, ads, FeatureImg };
