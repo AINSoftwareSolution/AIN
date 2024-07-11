@@ -1,5 +1,10 @@
-
-import { AboutUs, PricingPlan, Quote, Services, WhyChooseUs } from "./container";
+import {
+  AboutUs,
+  PricingPlan,
+  Quote,
+  Services,
+  WhyChooseUs,
+} from "./container";
 
 const Home = () => {
   return (
