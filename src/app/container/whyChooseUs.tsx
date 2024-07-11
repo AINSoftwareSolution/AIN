@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
                                     className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                     style={{ width: "60px", height: "60px" }}
                                 >
-                                    <i className="bi bi-boxes text-white"></i>
+                                    <i className=" fs-4 bi bi-boxes text-white"></i>
                                 </div>
                                 <h4>Best In Industry</h4>
                                 <p className="mb-0">
@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                                     className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                     style={{ width: "60px", height: "60px" }}
                                 >
-                                    <i className="bi bi-award text-white"></i>
+                                    <i className=" fs-4 bi bi-award text-white"></i>
                                 </div>
                                 <h4>Award Winning</h4>
                                 <p className="mb-0">
@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
                                     className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                     style={{ width: "60px", height: "60px" }}
                                 >
-                                    <i className="bi bi-people text-white"></i>
+                                    <i className=" fs-4 bi bi-people text-white"></i>
                                 </div>
                                 <h4>Professional Staff</h4>
                                 <p className="mb-0">
@@ -87,7 +87,7 @@ const WhyChooseUs = () => {
                                     className="bg-primary rounded d-flex align-items-center justify-content-center mb-3"
                                     style={{ width: "60px", height: "60px" }}
                                 >
-                                    <i className="bi bi-telephone text-white"></i>
+                                    <i className=" fs-4 bi bi-telephone text-white"></i>
                                 </div>
                                 <h4>24/7 Support</h4>
                                 <p className="mb-0">
