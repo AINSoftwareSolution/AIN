@@ -211,7 +211,7 @@ const ProgrammaticsAds = () => {
                                 style={{ width: "60px", height: "60px" }}>
                                 <i className="fs-2 bi bi-gear-fill text-white"></i>
                             </div>
-                            <p>Enable frequency capping, build audience persona’s, in a brand safe environment</p>
+                            <p>Enable frequency capping, build audience persona&apos;s, in a brand safe environment</p>
                         </div>
                         <div className="col-lg-3">
                             <div

@@ -97,14 +97,14 @@ const Navbar: React.FC = () => {
             <div className="container-fluid position-relative p-0">
                 <nav className={`navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0 ${sticky ? 'sticky-top shadow-sm' : ''}`}>
                     <Link href="/" className="navbar-brand p-0">
-                            <h1 className="m-0"><i className="bi bi-person me-2"></i>Startup</h1>
+                            <h1 className="m-0 text-primary"><i className="bi bi-person me-2"></i>Startup</h1>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="bi bi-bars"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarCollapse">
                         <div className="navbar-nav ms-auto py-0">
-                            <Link href="/" className={`nav-item nav-link ${path === '/' ? 'active' : ''}`}>Home
+                            <Link href="/" className={`nav-item nav-link  ${path === '/' ? 'active' : ''}`}>Home
                             </Link>
                             <Link href="/about"  className={`nav-item nav-link ${path === '/about' ? 'active' : ''}`}>About
                             </Link>
