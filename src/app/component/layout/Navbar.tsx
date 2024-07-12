@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
                         <div className="navbar-nav ms-auto py-0">
                             <Link href="/" className={`nav-item nav-link  ${path === '/' ? 'active' : ''}`}>Home
                             </Link>
-                            <Link href="/about"  className={`nav-item nav-link ${path === '/about' ? 'active' : ''}`}>About
+                            <Link href="/about-us"  className={`nav-item nav-link ${path === '/about-us' ? 'active' : ''}`}>About
                             </Link>
                             <Link href="/service" className={`nav-item nav-link ${path === '/service' ? 'active' : ''}`}>Services
                             </Link>

@@ -1,3 +1,5 @@
+import { Team1, Team2, Team3 } from "./img";
+
 export const servicesData = [
     {
       icon: "bi bi-shield",
@@ -31,3 +33,39 @@ export const servicesData = [
     },
   ];
   
+
+  export const TeamData  = [
+    {
+      name: 'John Doe',
+      designation: 'CEO',
+      imageSrc: Team1,
+      socialLinks: {
+        twitter: 'https://twitter.com',
+        facebook: 'https://facebook.com',
+        instagram: 'https://instagram.com',
+        linkedin: 'https://linkedin.com',
+      },
+    },
+    {
+      name: 'Jane Smith',
+      designation: 'CTO',
+      imageSrc: Team2,
+      socialLinks: {
+        twitter: 'https://twitter.com',
+        facebook: 'https://facebook.com',
+        instagram: 'https://instagram.com',
+        linkedin: 'https://linkedin.com',
+      },
+    },
+    {
+      name: 'Alice Johnson',
+      designation: 'CFO',
+      imageSrc: Team3,
+      socialLinks: {
+        twitter: 'https://twitter.com',
+        facebook: 'https://facebook.com',
+        instagram: 'https://instagram.com',
+        linkedin: 'https://linkedin.com',
+      },
+    },
+  ];
