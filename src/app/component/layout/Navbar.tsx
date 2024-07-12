@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
                             </Link>
                             <Link href="/about-us"  className={`nav-item nav-link ${path === '/about-us' ? 'active' : ''}`}>About
                             </Link>
-                            <Link href="/service" className={`nav-item nav-link ${path === '/service' ? 'active' : ''}`}>Services
+                            <Link href="/services" className={`nav-item nav-link ${path === '/services' ? 'active' : ''}`}>Services
                             </Link>
                             <div className="nav-item dropdown">
                                 <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog </Link>

@@ -1,7 +1,7 @@
 import { servicesData } from '../Utilis/data'
 import { ServiceCard } from '../component'
 
-const Services = () => {
+const ServicesList = () => {
     return (
         // {/* Service End */}
         <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -39,4 +39,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default ServicesList
