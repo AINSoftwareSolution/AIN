@@ -1,10 +1,27 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import { WhyChooseUs } from "../container";
+import { Team1, Team2, Team3 } from "../Utilis/img";
+import { TeamData } from "../Utilis/data";
 
 const AboutUs = () => {
   return (
     <>
+
+      <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '50px' }}>
+        <div className="row py-5">
+          <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 className="display-4 text-white animated zoomIn">About Us</h1>
+            <Link href="" className="h5 text-white">Home</Link>
+            <i className="bi bi-circle text-white px-2"></i>
+            <Link href="" className="h5 text-white">About</Link>
+          </div>
+        </div>
+      </div>
+
       <WhyChooseUs />
+
       {/* Team */}
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
@@ -20,129 +37,52 @@ const AboutUs = () => {
             </h1>
           </div>
           <div className="row g-5">
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-1.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
+            {
+              TeamData.map((team, index) => (
+                <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s" key={index}>
+                  <div className="team-item bg-light rounded overflow-hidden">
+                    <div className="team-img position-relative overflow-hidden">
+                      <Image
+                        className="img-fluid w-100"
+                        src={team.imageSrc}
+                        alt={team.name}
+                      />
+                      <div className="team-social">
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.twitter}
+                        >
+                          <i className="bi bi-twitter fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.facebook}
+                        >
+                          <i className="bi bi-facebook fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.instagram}
+                        >
+                          <i className="bi bi-instagram fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.linkedin}
+                        >
+                          <i className="bi bi-linkedin fw-normal"></i>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="text-center py-4">
+                      <h4 className="text-primary">{team.name}</h4>
+                      <p className="text-uppercase m-0">{team.designation}</p>
+                    </div>
                   </div>
                 </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-2.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-3.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
+              ))
+            }
+
           </div>
         </div>
       </div>
