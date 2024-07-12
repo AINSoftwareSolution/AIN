@@ -2,7 +2,7 @@ import {
   AboutUs,
   PricingPlan,
   Quote,
-  Services,
+  ServicesList,
   WhyChooseUs,
 } from "./container";
 
@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <AboutUs />
       <WhyChooseUs />
-      <Services />
+      <ServicesList />
       <PricingPlan />
       <Quote />
     </div>
