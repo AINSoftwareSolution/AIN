@@ -1,83 +1,92 @@
 import React from "react";
-import Image from "next/image";
-
-import { AboutImg } from "../Utilis/img";
 import Link from "next/link";
+import Image from "next/image";
+import { WhyChooseUs } from "../container";
+import { Team1, Team2, Team3 } from "../Utilis/img";
+import { TeamData } from "../Utilis/data";
 
 const AboutUs = () => {
   return (
-    <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-      <div className="container py-5">
-        <div className="row g-5">
-          <div className="col-lg-7">
-            <div className="section-title position-relative pb-3 mb-5">
-              <h5 className="fw-bold text-primary text-uppercase">About Us</h5>
-              <h1 className="mb-0">
-                The Best IT Solution With 10 Years of Experience
-              </h1>
-            </div>
-            <p className="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor
-              sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem
-              et sit, sed stet no labore lorem sit. Sanctus clita duo justo et
-              tempor eirmod magna dolore erat amet
-            </p>
-            <div className="row g-0 mb-3">
-              <div className="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                <h5 className="mb-3">
-                  <i className="bi bi-check text-primary me-3"></i>Award Winning
-                </h5>
-                <h5 className="mb-3">
-                  <i className="bi bi-check text-primary me-3"></i>Professional
-                  Staff
-                </h5>
-              </div>
-              <div className="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                <h5 className="mb-3">
-                  <i className="bi bi-check text-primary me-3"></i>24/7 Support
-                </h5>
-                <h5 className="mb-3">
-                  <i className="bi bi-check text-primary me-3"></i>Fair Prices
-                </h5>
-              </div>
-            </div>
-            <div
-              className="d-flex align-items-center mb-4 wow fadeIn"
-              data-wow-delay="0.6s"
-            >
-              <div
-                className="bg-primary d-flex align-items-center justify-content-center rounded"
-                style={{ width: "60px", height: "60px" }}
-              >
-                <i className="bi bi-telephone-fill text-white"></i>
-              </div>
-              <div className="ps-4">
-                <h5 className="mb-2">Call to ask any question</h5>
-                <h4 className="text-primary mb-0">+012 345 6789</h4>
-              </div>
-            </div>
-            <Link
-              href={"/quote"}
-              className="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
-              data-wow-delay="0.9s"
-            >
-              Request A Quote
-            </Link>
-          </div>
-          <div className="col-lg-5" style={{ minHeight: "500px" }}>
-            <div className="position-relative h-100">
-              <Image
-                alt="about_us"
-                className="position-absolute w-100 h-100 rounded wow zoomIn"
-                data-wow-delay="0.9s"
-                src={AboutImg}
-                style={{ objectFit: "cover" }}
-              />
-            </div>
+    <>
+
+      <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '50px' }}>
+        <div className="row py-5">
+          <div className="col-12 pt-lg-5 mt-lg-5 text-center">
+            <h1 className="display-4 text-white animated zoomIn">About Us</h1>
+            <Link href="" className="h5 text-white">Home</Link>
+            <i className="bi bi-circle text-white px-2"></i>
+            <Link href="" className="h5 text-white">About</Link>
           </div>
         </div>
       </div>
-    </div>
+
+      <WhyChooseUs />
+
+      {/* Team */}
+      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+              Team Members
+            </h5>
+            <h1 className="mb-0">
+              Professional Stuffs Ready to Help Your Business
+            </h1>
+          </div>
+          <div className="row g-5">
+            {
+              TeamData.map((team, index) => (
+                <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s" key={index}>
+                  <div className="team-item bg-light rounded overflow-hidden">
+                    <div className="team-img position-relative overflow-hidden">
+                      <Image
+                        className="img-fluid w-100"
+                        src={team.imageSrc}
+                        alt={team.name}
+                      />
+                      <div className="team-social">
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.twitter}
+                        >
+                          <i className="bi bi-twitter fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.facebook}
+                        >
+                          <i className="bi bi-facebook fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.instagram}
+                        >
+                          <i className="bi bi-instagram fw-normal"></i>
+                        </Link>
+                        <Link
+                          className="btn btn-lg btn-primary btn-lg-square rounded"
+                          href={team.socialLinks.linkedin}
+                        >
+                          <i className="bi bi-linkedin fw-normal"></i>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="text-center py-4">
+                      <h4 className="text-primary">{team.name}</h4>
+                      <p className="text-uppercase m-0">{team.designation}</p>
+                    </div>
+                  </div>
+                </div>
+              ))
+            }
+
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -1,5 +1,6 @@
 import { ads, WhyAds } from "@/app/Utilis/img";
 import Image from "next/image";
+import Link from "next/link";
 
 const ProgrammaticsAds = () => {
   return (
@@ -21,45 +22,146 @@ const ProgrammaticsAds = () => {
       </div>
 
       {/*  section */}
-      <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
-          <div className="row">
-            <div className="col-md-6 col-6">
-              <Image src={WhyAds} alt="WHy Image" className="img-fluid" />
+          <div className="row g-5 d-flex align-items-center">
+            <div className="col-lg-4 col-md-4 col-12">
+              <Image src={WhyAds} alt="Why Image" className="img-fluid" />
             </div>
-            <div className="col-md-6 col-6">
-              <div className="text-start mt-4">
-                <h2 className="h2 text-primary mb-1 mt-5 text-start">Why?</h2>
-                <ul>
-                  <li>The next big move</li>
-                  <li>Stay ahead of the competition</li>
-                  <li>Low cost per thousand Impression</li>
-                </ul>
-              </div>
-              <div className="text-start mt-4">
-                <h2 className="h2 text-primary mb-1 mt-5 text-start">To...</h2>
-                <ul>
-                  <li>Scale Efficiently </li>
-                  <li>Real time </li>
-                  <li>Optimizations put data to use</li>
-                </ul>
-              </div>
-              <div className="text-start mt-4">
-                <h2 className="h2 text-primary mb-1 mt-5 text-start">
-                  Using...
-                </h2>
-                <ul>
-                  <li> Audio</li>
-                  <li> Connected TV & </li>
-                  <li>Billboards Display ads & Video</li>
-                </ul>
+
+            <div className="col-lg-8 col-md-8 col-12">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg">
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary m-2">Why?</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>The next big move</li>
+                        <li>Stay ahead of the competition</li>
+                        <li>Low cost per thousand Impression</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg" >
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary m-2">To</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>Scale Efficiently</li>
+                        <li>Real time</li>
+                        <li>Optimizations put data to use</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg" >
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary my-2 mx-2">Using</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>Audio</li>
+                        <li>Connected TV &</li>
+                        <li>Billboards Display ads & Video</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* why choose */}
+      { /* Direct Media Buying */}
+      <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container py-5">
+          <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: "600px" }}>
+            <h5 className="fw-bold text-primary text-uppercase">
+              Direct Media Buying
+            </h5>
+            <h1 className="mb-0">
+              Be Visible Where Your Brand Is Recognized The Most</h1>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                {/* <img src="..." className="card-img-top" alt="..."> */}
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">Efficiency</h5>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Streamline trafficking</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Quicker Execution</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Quicker Execution</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Better troubleshooting
+                      tools</Link>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                {/* <img src="..." className="card-img-top" alt="..."> */}
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">PERFORMANCE</h5>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Manage Reach</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Manage Frequency</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Consolidation of
+                      multiple media buys</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Simplified
+                      optimization</Link>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                {/* <img src="..." className="card-img-top" alt="..."> */}
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">PRECISION</h5>
+                  <p> Customize your campaigns
+                    using:</p>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Audiance </Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Geography</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Time </Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>Language</Link>
+                    <Link className="text-dark mb-2" href="#"><i className="bi bi-arrow-right text-primary me-2"></i>pacing controls</Link>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      
+      {/* Demand Side Platform (DSP) */}
+      <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+            Demand Side Platform (DSP)
+            </h5>
+            <h3 className="mb-0">
+            A demand-side platform (DSP) is a software/tool that allowsbuyers of digital advertising inventory to manage multiple ads
+            </h3>
+          </div>
+      
+         </div>
+      </div>
+
+      { /* why choose */}
       <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div
@@ -267,149 +369,7 @@ const ProgrammaticsAds = () => {
           </div>
         </div>
       </div>
-
-      {/* Team */}
-      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container py-5">
-          <div
-            className="section-title text-center position-relative pb-3 mb-5 mx-auto"
-            style={{ maxWidth: "600px" }}
-          >
-            <h5 className="fw-bold text-primary text-uppercase">
-              Team Members
-            </h5>
-            <h1 className="mb-0">
-              Professional Stuffs Ready to Help Your Business
-            </h1>
-          </div>
-          <div className="row g-5">
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-1.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-2.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-              <div className="team-item bg-light rounded overflow-hidden">
-                <div className="team-img position-relative overflow-hidden">
-                  <img
-                    className="img-fluid w-100"
-                    src="img/team-3.jpg"
-                    alt=""
-                  />
-                  <div className="team-social">
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-twitter fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-facebook-f fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-instagram fw-normal"></i>
-                    </a>
-                    <a
-                      className="btn btn-lg btn-primary btn-lg-square rounded"
-                      href=""
-                    >
-                      <i className="fab fa-linkedin-in fw-normal"></i>
-                    </a>
-                  </div>
-                </div>
-                <div className="text-center py-4">
-                  <h4 className="text-primary">Full Name</h4>
-                  <p className="text-uppercase m-0">Designation</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div >
   );
 };
 
