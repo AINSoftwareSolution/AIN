@@ -548,5 +548,9 @@ background-size: cover;
   width: 50%;
   margin: auto;
 }
-
-
+.card-head{
+  background-color: #06A3DA;
+}
+.card{
+  background-color:grey;
+}
