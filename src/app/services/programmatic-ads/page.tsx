@@ -151,7 +151,7 @@ const ProgrammaticsAds = () => {
             style={{ maxWidth: "600px" }}
           >
             <h5 className="fw-bold text-primary text-uppercase">
-            Demand Side Platform (DSP) 
+            Demand Side Platform (DSP)
             </h5>
             <h3 className="mb-0">
             A demand-side platform (DSP) is a software/tool that allowsbuyers of digital advertising inventory to manage multiple ads
