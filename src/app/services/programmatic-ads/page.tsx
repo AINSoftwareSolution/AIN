@@ -15,10 +15,11 @@ const ProgrammaticsAds = () => {
       <div className="container-fluid bg-primary py-5 bg-header">
         <div className="row d-flex align-items-center justify-content-center py-5">
           <div className="col-12 text-center">
-            <h1 className="h2 text-white text-center  custom-heading">
+          <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising </h1>
+            <h4 className=" text-white text-center custom-heading">
               Bid on ad placements in real-time and reach your target audience
               when they&apos;re most likely to engage with your ads.
-            </h1>
+            </h4>
             <p className="text-white text-center mt-3 custom-paragraph">
               Highlight the potential to see a high return on investment (ROI)
               from programmatic advertising compared to traditional advertising

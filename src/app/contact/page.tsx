@@ -1,19 +1,13 @@
-import React from 'react'
+import { Header } from "../component"
 
 const Contact = () => {
+    const breadcrumbLinks = [
+        { name: 'Home', url: '/' },
+        { name: 'Contact', url: '/contact' },
+    ];
     return (
         <div>
-
-            <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '90px' }}>
-                <div className="row py-5">
-                    <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-                        <h1 className="display-4 text-white animated zoomIn">Contact Us</h1>
-                        <a href="" className="h5 text-white">Home</a>
-                        <i className="far fa-circle text-white px-2"></i>
-                        <a href="" className="h5 text-white">Contact</a>
-                    </div>
-                </div>
-            </div>
+            <Header title="Contact Us" breadcrumbLinks={breadcrumbLinks} />
             {/* <!-- Contact Start --> */}
             <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div className="container py-5">
@@ -25,7 +19,7 @@ const Contact = () => {
                         <div className="col-lg-4">
                             <div className="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
                                 <div className="bg-primary d-flex align-items-center justify-content-center rounded" style={{ width: '60px', height: '60px' }}>
-                                    <i className="fa fa-phone-alt text-white"></i>
+                                    <i className=" fs-3 bi bi-telephone text-white"></i>
                                 </div>
                                 <div className="ps-4">
                                     <h5 className="mb-2">Call to ask any question</h5>
@@ -36,7 +30,7 @@ const Contact = () => {
                         <div className="col-lg-4">
                             <div className="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
                                 <div className="bg-primary d-flex align-items-center justify-content-center rounded" style={{ width: '60px', height: '60px' }}>
-                                    <i className="fa fa-envelope-open text-white"></i>
+                                    <i className=" fs-3 bi bi-envelope-open text-white"></i>
                                 </div>
                                 <div className="ps-4">
                                     <h5 className="mb-2">Email to get free quote</h5>
@@ -47,7 +41,7 @@ const Contact = () => {
                         <div className="col-lg-4">
                             <div className="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
                                 <div className="bg-primary d-flex align-items-center justify-content-center rounded" style={{ width: '60px', height: '60px' }}>
-                                    <i className="fa fa-map-marker-alt text-white"></i>
+                                    <i className=" fs-3 bi bi-geo-alt text-white"></i>
                                 </div>
                                 <div className="ps-4">
                                     <h5 className="mb-2">Visit our office</h5>
