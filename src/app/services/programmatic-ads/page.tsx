@@ -3,7 +3,6 @@ import {
   WhyImg,
   Display360,
   GoogleADSImg,
-  DV360Img,
   DisplayAndVideo360
 } from "@/app/Utilis/img";
 import Image from "next/image";
@@ -306,7 +305,7 @@ const ProgrammaticsAds = () => {
         <div className="card">
           <div className="card-body">
             <p className="card-title text-black text-center">
-              Available Rich Media, Audio, Connected TV
+              Available Rich Media,Audio,Connected TV
             </p>
           </div>
         </div>
