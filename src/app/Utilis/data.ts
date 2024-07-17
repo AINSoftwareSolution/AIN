@@ -1,71 +1,78 @@
 import { Team1, Team2, Team3 } from "./img";
 
 export const servicesData = [
-    {
-      icon: "bi bi-shield",
-      title: "Cyber Security",
-      description: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
-      link: ""
-    },
-    {
-      icon: "bi bi-database",
-      title: "Data Analytics",
-      description: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
-      link: ""
-    },
-    {
-      icon: "bi bi-code-slash",
-      title: "Web Development",
-      description: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
-      link: ""
-    },
-    {
-      icon: "bi bi-android",
-      title: "Apps Development",
-      description: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
-      link: ""
-    },
-    {
-      icon: "bi bi-search",
-      title: "SEO Optimization",
-      description: "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
-      link: ""
-    },
-  ];
-  
+  {
+    icon: "bi bi-shield",
+    title: "Website Design and development",
+    path: "/services/website-design-development",
+    img1: "",
+    description1:
+      "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
+    img2: "",
+    description2: "",
+  },
+  {
+    icon: "bi bi-database",
+    title: "Social Media Marketing",
+    path: "/services/social-media-marketing",
+    description:
+      "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
+  },
+  {
+    icon: "bi bi-code-slash",
+    title: "Search Engine Optimization",
+    path: "/services/seo",
+    description:
+      "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
+  },
+  {
+    icon: "bi bi-android",
+    title: "Email Marketing",
+    path: "/services/email-marketing",
+    description:
+      "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
+  },
+  {
+    icon: "bi bi-search",
+    title: "PPC & Google Ads",
+    path: "/services/ads",
+    description:
+      "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
+  },
+];
 
-  export const TeamData  = [
-    {
-      name: 'John Doe',
-      designation: 'CEO',
-      imageSrc: Team1,
-      socialLinks: {
-        twitter: 'https://twitter.com',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com',
-        linkedin: 'https://linkedin.com',
-      },
+export const TeamData = [
+  {
+    name: "John Doe",
+    designation: "CEO",
+    imageSrc: Team1,
+    socialLinks: {
+      twitter: "https://twitter.com",
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      linkedin: "https://linkedin.com",
     },
-    {
-      name: 'Jane Smith',
-      designation: 'CTO',
-      imageSrc: Team2,
-      socialLinks: {
-        twitter: 'https://twitter.com',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com',
-        linkedin: 'https://linkedin.com',
-      },
+  },
+  {
+    name: "Jane Smith",
+    designation: "CTO",
+    imageSrc: Team2,
+    socialLinks: {
+      twitter: "https://twitter.com",
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      linkedin: "https://linkedin.com",
     },
-    {
-      name: 'Alice Johnson',
-      designation: 'CFO',
-      imageSrc: Team3,
-      socialLinks: {
-        twitter: 'https://twitter.com',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com',
-        linkedin: 'https://linkedin.com',
-      },
+  },
+  {
+    name: "Alice Johnson",
+    designation: "CFO",
+    imageSrc: Team3,
+    socialLinks: {
+      twitter: "https://twitter.com",
+      facebook: "https://facebook.com",
+      instagram: "https://instagram.com",
+      linkedin: "https://linkedin.com",
     },
-  ];
+  },
+];

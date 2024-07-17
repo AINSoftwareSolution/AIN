@@ -15,7 +15,7 @@ const ProgrammaticsAds = () => {
       <div className="container-fluid bg-primary py-5 bg-header">
         <div className="row d-flex align-items-center justify-content-center py-5">
           <div className="col-12 text-center">
-          <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising </h1>
+            <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising </h1>
             <h4 className=" text-white text-center custom-heading">
               Bid on ad placements in real-time and reach your target audience
               when they&apos;re most likely to engage with your ads.
@@ -31,340 +31,339 @@ const ProgrammaticsAds = () => {
 
       {/*  section */}
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="container py-5">
-    <div className="row g-5 d-flex align-items-center">
-      <div className="col-lg-4 col-md-4 col-12">
-        <Image src={WhyImg} alt="Why Image" className="img-fluid" />
-      </div>
-      <div className="col-lg-8 col-md-8 col-12">
-        <div className="row">
-          <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-            <div className="card shadow-lg">
-              <div className="card-title text-start mt-4">
-                <h2 className="h2 text-primary m-2">Why?</h2>
-                <ul className="card-text text-sm-start">
-                  <li>The next big move</li>
-                  <li>Stay ahead of the competition</li>
-                  <li>Low cost per thousand Impression</li>
-                </ul>
-              </div>
+        <div className="container py-5">
+          <div className="row g-5 d-flex align-items-center">
+            <div className="col-lg-4 col-md-4 col-12">
+              <Image src={WhyImg} alt="Why Image" className="img-fluid" />
             </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-            <div className="card shadow-lg">
-              <div className="card-title text-start mt-4">
-                <h2 className="h2 text-primary m-2">To</h2>
-                <ul className="card-text text-sm-start">
-                  <li>Scale Efficiently</li>
-                  <li>Real time</li>
-                  <li>Optimizations put data to use</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
-            <div className="card shadow-lg">
-              <div className="card-title text-start mt-4">
-                <h2 className="h2 text-primary my-2 mx-2">Using</h2>
-                <ul className="card-text text-sm-start">
-                  <li>Audio</li>
-                  <li>Connected TV &</li>
-                  <li>Billboards Display ads & Video</li>
-                </ul>
+            <div className="col-lg-8 col-md-8 col-12">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg">
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary m-2">Why?</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>The next big move</li>
+                        <li>Stay ahead of the competition</li>
+                        <li>Low cost per thousand Impression</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg">
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary m-2">To</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>Scale Efficiently</li>
+                        <li>Real time</li>
+                        <li>Optimizations put data to use</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4">
+                  <div className="card shadow-lg">
+                    <div className="card-title text-start mt-4">
+                      <h2 className="h2 text-primary my-2 mx-2">Using</h2>
+                      <ul className="card-text text-sm-start">
+                        <li>Audio</li>
+                        <li>Connected TV &</li>
+                        <li>Billboards Display ads & Video</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
       {/* Direct Media Buying */}
       <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="container py-5">
-    <div
-      className="section-title text-center position-relative pb-3 mb-5 mx-auto"
-      style={{ maxWidth: "600px" }}
-    >
-      <h5 className="fw-bold text-primary text-uppercase">
-        Direct Media Buying
-      </h5>
-      <h1 className="mb-0">
-        Be Visible Where Your Brand Is Recognized The Most
-      </h1>
-    </div>
-    <div className="row row-cols-1 row-cols-md-3 g-4">
-      <div className="col">
-        <div className="card h-100 shadow-lg border-1">
-          <div className="card-body">
-            <h5 className="card-title text-primary text-start">
-              Efficiency
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mb-5 mx-auto"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+              Direct Media Buying
             </h5>
-            <div className="link-animated d-flex flex-column justify-content-start">
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Streamline trafficking
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Quicker Execution
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Quicker Execution
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Better troubleshooting tools
-              </Link>
+            <h1 className="mb-0">
+              Be Visible Where Your Brand Is Recognized The Most
+            </h1>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">
+                    Efficiency
+                  </h5>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Streamline trafficking
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Quicker Execution
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Quicker Execution
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Better troubleshooting tools
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">
+                    PERFORMANCE
+                  </h5>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Manage Reach
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Manage Frequency
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Consolidation of multiple media buys
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Simplified optimization
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card h-100 shadow-lg border-1">
+                <div className="card-body">
+                  <h5 className="card-title text-primary text-start">
+                    PRECISION
+                  </h5>
+                  <p> Customize your campaigns using:</p>
+                  <div className="link-animated d-flex flex-column justify-content-start">
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Audience
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Geography
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Time
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Language
+                    </Link>
+                    <Link className="text-dark mb-2" href="#">
+                      <i className="bi bi-arrow-right text-primary me-2"></i>
+                      Pacing controls
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="col">
-        <div className="card h-100 shadow-lg border-1">
-          <div className="card-body">
-            <h5 className="card-title text-primary text-start">
-              PERFORMANCE
-            </h5>
-            <div className="link-animated d-flex flex-column justify-content-start">
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Manage Reach
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Manage Frequency
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Consolidation of multiple media buys
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Simplified optimization
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card h-100 shadow-lg border-1">
-          <div className="card-body">
-            <h5 className="card-title text-primary text-start">
-              PRECISION
-            </h5>
-            <p> Customize your campaigns using:</p>
-            <div className="link-animated d-flex flex-column justify-content-start">
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Audience
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Geography
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Time
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Language
-              </Link>
-              <Link className="text-dark mb-2" href="#">
-                <i className="bi bi-arrow-right text-primary me-2"></i>
-                Pacing controls
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
       {/* Demand Side Platform (DSP) */}
-      <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="container py-5">
-    <div
-      className="section-title text-center position-relative pb-3 mb-4 mx-auto"
-      style={{ maxWidth: "600px" }}
-    >
-      <h5 className="fw-bold text-primary text-uppercase">
-        Demand Side Platform (DSP)
-      </h5>
-      <h3 className="mb-0">
-        A demand-side platform (DSP) is a software/tool that allows buyers of digital advertising inventory to manage multiple ads
-      </h3>
-    </div>
-    <div className="text-center">
-      <Image
-        src={Display360}
-        className="img-fluid rounded"
-        alt="display360"
-        height={100}
-      />
-    </div>
-  </div>
-</div>
+      <div className="container-fluid  wow fadeInUp" data-wow-delay="0.1s">
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mb-4 mx-auto"
+            style={{ maxWidth: "615px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+              Demand Side Platform (DSP)
+            </h5>
+            <h3 className="mb-0">
+              A demand-side platform (DSP) is a software/tool that allows buyers of digital advertising inventory to manage multiple ads
+            </h3>
+          </div>
+          <div className="text-center">
+            <Image
+              src={Display360}
+              className="img-fluid rounded"
+              alt="display360"
+              height={100}
+            />
+          </div>
+        </div>
+      </div>
 
 
       {/* DV360 section 13 */}
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="container py-5">
-    <div
-      className="section-title text-center position-relative pb-3 mx-auto mb-0"
-      style={{ maxWidth: "600px" }}
-    >
-      <h5 className="fw-bold text-primary text-uppercase">
-        DV360 vs Google Ads
-      </h5>
-    </div>
-    <div className="row row-cols-1 row-cols-md-3 g-4 mt-0">
-      <div className="col"></div>
-      <div className="col text-center">
-        <Image src={GoogleADSImg} alt="Google Ads" height={100} />
-      </div>
-      <div className="col text-center">
-        <Image src={Display360} alt="Display360" height={100} />
-      </div>
-    </div>
-    <div className="row row-cols-1 row-cols-md-3 g-4 mt-0">
-      <div className="col">
-        <div className="card-head rounded">
-          <div className="card-body">
-            <h5 className="card-title text-white text-center">Reach</h5>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">GDN</p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              80+ Ad exchanges
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="row row-cols-1 row-cols-md-3 g-4 mt-1">
-      <div className="col">
-        <div className="card-head rounded">
-          <div className="card-body">
-            <h5 className="card-title text-white text-center">
-              Frequency Capping
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mx-auto mb-0"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+              DV360 vs Google Ads
             </h5>
           </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              By Day, Week, Month
-            </p>
+          <div className="row row-cols-1 row-cols-md-3 g-4 mt-0">
+            <div className="col"></div>
+            <div className="col text-center">
+              <Image src={GoogleADSImg} alt="Google Ads" height={100} />
+            </div>
+            <div className="col text-center">
+              <Image src={Display360} alt="Display360" height={100} />
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 g-4 mt-0">
+            <div className="col">
+              <div className="card-head rounded">
+                <div className="card-body">
+                  <h5 className="card-title text-white text-center">Reach</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">GDN</p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    80+ Ad exchanges
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row row-cols-1 row-cols-md-3 g-4 mt-1">
+            <div className="col">
+              <div className="card-head rounded">
+                <div className="card-body">
+                  <h5 className="card-title text-white text-center">
+                    Frequency Capping
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    By Day, Week, Month
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    By Minute, Hour, Lifetime
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card-head rounded">
+                <div className="card-body">
+                  <h5 className="card-title text-white text-center">
+                    Dynamic Creatives
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    Unavailable Static Banner, Video, HTML5
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    Available Rich Media, Audio, Connected TV
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card-head rounded">
+                <div className="card-body">
+                  <h5 className="card-title text-white text-center">
+                    Auction Deals
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    Not available
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <div className="card">
+                <div className="card-body">
+                  <p className="card-title text-black text-center">
+                    RTB, Preferred Deals, Guaranteed Deals
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              By Minute, Hour, Lifetime
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card-head rounded">
-          <div className="card-body">
-            <h5 className="card-title text-white text-center">
-              Dynamic Creatives
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              Unavailable Static Banner, Video, HTML5
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              Available Rich Media, Audio, Connected TV
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card-head rounded">
-          <div className="card-body">
-            <h5 className="card-title text-white text-center">
-              Auction Deals
-            </h5>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              Not available
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="col">
-        <div className="card">
-          <div className="card-body">
-            <p className="card-title text-black text-center">
-              RTB, Preferred Deals, Guaranteed Deals
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
       {/*Display and Video360 */}
 
       <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-  <div className="container py-5">
-    <div
-      className="section-title text-center position-relative pb-3 mx-auto mb-5"
-      style={{ maxWidth: "600px" }}
-    >
-      <h5 className="fw-bold text-primary text-uppercase">
-        Display & Video 360
-      </h5>
-    </div>
-    <div className="text-center">
-      <Image
-        src={DisplayAndVideo360}
-        alt="display-image"
-        className="img-fluid"
-      />
-    </div>
-  </div>
-</div>
-
+        <div className="container py-5">
+          <div
+            className="section-title text-center position-relative pb-3 mx-auto mb-5"
+            style={{ maxWidth: "600px" }}
+          >
+            <h5 className="fw-bold text-primary text-uppercase">
+              Display & Video 360
+            </h5>
+          </div>
+          <div className="text-center">
+            <Image
+              src={DisplayAndVideo360}
+              alt="display-image"
+              className="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
 
 
       {/* why choose */}
