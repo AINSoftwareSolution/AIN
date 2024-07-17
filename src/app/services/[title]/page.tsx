@@ -6,7 +6,7 @@ import React from 'react'
 const ServiceDetails = ({ params }: { params: { title: string } }) => {
 
     const router = useRouter();
-    const matchedService = servicesData.find(service => service.path.split('/').pop() === params.title);
+    const matchedService = servicesData.find(service => service.link.split('/').pop() === params.title);
 
     if (!matchedService) {
         if (typeof window !== 'undefined') {
