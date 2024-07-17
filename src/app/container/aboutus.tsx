@@ -57,7 +57,7 @@ const AboutUs = () => {
               </div>
             </div>
             <Link
-              href={"/quote"}
+              href={"/#quote"}
               className="btn btn-primary py-3 px-5 mt-3 wow zoomIn"
               data-wow-delay="0.9s"
             >

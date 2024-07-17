@@ -1,24 +1,19 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { WhyChooseUs } from "../container";
-import { Team1, Team2, Team3 } from "../Utilis/img";
+
+import { Header } from "../component";
 import { TeamData } from "../Utilis/data";
+import { WhyChooseUs } from "../container";
 
 const AboutUs = () => {
+  const breadcrumbLinks = [
+    { name: 'Home', url: '/' },
+    { name: 'About Us', url: '/about-us' },
+  ];
   return (
     <>
-
-      <div className="container-fluid bg-primary py-5 bg-header" style={{ marginBottom: '50px' }}>
-        <div className="row py-5">
-          <div className="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 className="display-4 text-white animated zoomIn">About Us</h1>
-            <Link href="" className="h5 text-white">Home</Link>
-            <i className="bi bi-circle text-white px-2"></i>
-            <Link href="" className="h5 text-white">About</Link>
-          </div>
-        </div>
-      </div>
+      <Header title="About Us" breadcrumbLinks={breadcrumbLinks} />
 
       <WhyChooseUs />
 

@@ -110,16 +110,10 @@ const Navbar: React.FC = () => {
                             </Link>
                             <Link href="/services" className={`nav-item nav-link ${path === '/services' ? 'active' : ''}`}>Services
                             </Link>
-                            <div className="nav-item dropdown">
-                                <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Blog </Link>
-                                <div className="dropdown-menu m-0">
-                                    <Link href="/blog" className="dropdown-item">Blog Grid
-                                    </Link>
-                                    <Link href="/detail" className="dropdown-item">Blog Detail
-                                    </Link>
-                                </div>
-                            </div>
-                            <div className="nav-item dropdown">
+                            <Link href="/services/programmatic-ads" className={`nav-item nav-link ${path === '/services/programmatic-ads' ? 'active' : ''}`}>
+                             Progrmmatic Advertising 
+                            </Link>
+                            {/* <div className="nav-item dropdown">
                                 <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu m-0">
                                     <Link href="/price"  className="dropdown-item">Pricing Plan</Link>
@@ -128,15 +122,14 @@ const Navbar: React.FC = () => {
                                     <Link href="/testimonial" className="dropdown-item">Testimonial</Link>
                                     <Link href="/quote" className="dropdown-item">Free Quote</Link>
                                 </div>
-                            </div>
+                            </div> */}
                             <Link href="/contact" className={`nav-item nav-link ${path === '/contact' ? 'active' : ''}`}>Contact
                             </Link>
                         </div>
                         <button type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">
                             <i className="fa fa-search"></i>
                         </button>
-                        <Link href="" className="btn btn-primary py-2 px-4 ms-3"> Request A Quote
-                        </Link>
+                        <Link href="/#quote" className="btn btn-primary py-2 px-4 ms-3"> Request A Quote</Link>
                     </div>
                 </nav>
             </div>
