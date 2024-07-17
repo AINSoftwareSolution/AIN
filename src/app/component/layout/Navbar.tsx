@@ -116,6 +116,9 @@ const Navbar: React.FC = () => {
                             </Link>
                             <div className="nav-item dropdown">
                                 <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
+                          
+                             <div className="nav-item dropdown">
+                                <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu m-0">
                                     {
                                         servicesData.map((services) => (
@@ -125,7 +128,7 @@ const Navbar: React.FC = () => {
                                         ))
                                     }
                                 </div>
-                            </div>
+                            </div> 
                             <Link href="/contact" className={`nav-item nav-link ${path === '/contact' ? 'active' : ''}`}>Contact
                             </Link>
                         </div>
