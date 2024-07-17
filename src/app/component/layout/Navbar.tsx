@@ -114,21 +114,19 @@ const Navbar: React.FC = () => {
                             <Link href="/services/programmatic-ads" className={`nav-item nav-link ${path === '/services/programmatic-ads' ? 'active' : ''}`}>
                                 Progrmmatic Advertising
                             </Link>
+
                             <div className="nav-item dropdown">
                                 <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</Link>
-                          
-                             <div className="nav-item dropdown">
-                                <Link href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                                 <div className="dropdown-menu m-0">
                                     {
                                         servicesData.map((services) => (
-                                            <Link href="/price" className="dropdown-item" key={services.title}>
+                                            <Link href={services.link} className="dropdown-item" key={services.title}>
                                                 {services.title}
                                             </Link>
                                         ))
                                     }
                                 </div>
-                            </div> 
+                            </div>
                             <Link href="/contact" className={`nav-item nav-link ${path === '/contact' ? 'active' : ''}`}>Contact
                             </Link>
                         </div>

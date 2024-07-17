@@ -4,9 +4,9 @@ export const servicesData = [
   {
     icon: "bi bi-shield",
     title: "Website Design and development",
-    path: "/services/website-design-development",
+    link: "/services/website-design-development",
     img1: "",
-    description1:
+    description:
       "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
     img2: "",
     description2: "",
@@ -14,28 +14,28 @@ export const servicesData = [
   {
     icon: "bi bi-database",
     title: "Social Media Marketing",
-    path: "/services/social-media-marketing",
+    link: "/services/social-media-marketing",
     description:
       "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
   },
   {
     icon: "bi bi-code-slash",
     title: "Search Engine Optimization",
-    path: "/services/seo",
+    link: "/services/seo",
     description:
       "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
   },
   {
     icon: "bi bi-android",
     title: "Email Marketing",
-    path: "/services/email-marketing",
+    link: "/services/email-marketing",
     description:
       "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
   },
   {
     icon: "bi bi-search",
     title: "PPC & Google Ads",
-    path: "/services/ads",
+    link: "/services/ads",
     description:
       "Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed",
   },
