@@ -3,7 +3,6 @@ import {
   WhyImg,
   Display360,
   GoogleADSImg,
-  DV360Img,
   DisplayAndVideo360
 } from "@/app/Utilis/img";
 import Image from "next/image";
@@ -30,7 +29,7 @@ const ProgrammaticsAds = () => {
       </div>
 
       {/*  section */}
-      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div className="row g-5 d-flex align-items-center">
             <div className="col-lg-4 col-md-4 col-12">
@@ -213,7 +212,7 @@ const ProgrammaticsAds = () => {
 
 
       {/* DV360 section 13 */}
-      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid py-1 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div
             className="section-title text-center position-relative pb-3 mx-auto mb-0"
@@ -343,9 +342,11 @@ const ProgrammaticsAds = () => {
         </div>
       </div>
 
+      {/* dv360 end */}
+
       {/*Display and Video360 */}
 
-      <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div
             className="section-title text-center position-relative pb-3 mx-auto mb-5"
@@ -365,9 +366,76 @@ const ProgrammaticsAds = () => {
         </div>
       </div>
 
+       {/*Display and Video360 end */}
+
+{/* Youtube Ads  */}
+<div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="container py-5">
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
+            <h5 className="fw-bold text-primary text-uppercase">YouTube Ads</h5>
+        </div>
+        <div className="row d-flex align-items-stretch">
+            <div className="col-md-3 d-flex flex-column">
+                <div className="mb-auto">
+                    <p className="text-primary "><strong>Features</strong></p>
+                    <ul className="text-black">
+                        <li>Non-Skippable</li>
+                        <li>Optimized for mobile</li>
+                        <li>CPM Bidding</li>
+                    </ul>
+                    <p className="text-primary"><strong>Assets</strong></p>
+                    <ul className="text-black">
+                        <li>YouTube Video (6 seconds or less)</li>
+                    </ul>
+                    <p className="text-primary"><strong>Device Compatibility</strong></p>
+                    <ul className="text-black">
+                        <li>Desktop</li>
+                        <li>Mobile</li>
+                        <li>Tablet</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="col-md-3 d-flex flex-column text-center">
+                <video autoPlay loop muted className="mb-auto" style={{width: "100%", flexGrow: 1}}>
+                    <source src="/GoogleAds-Bumper.mp4" type="video/mp4" />   
+                 </video>
+                <h5 className="mt-3 text-primary">Bumper Ads</h5>
+            
+            </div>
+            <div className="col-md-3 d-flex flex-column text-center">
+                <video autoPlay loop muted className="mb-auto" style={{width: "100%", flexGrow: 1}}>
+                    <source src="/YouTube-Discovery.mp4" type="video/mp4" />
+                </video>
+                <h5 className="mt-3 text-primary ">Discovery Ads</h5>
+            </div>
+            <div className="col-md-3 d-flex flex-column">
+                <div className="mb-auto">
+                    <p className="text-primary"><strong>Features</strong></p>
+                    <ul className="text-black">
+                        <li>Pay per click</li>
+                        <li>5X more clicks compared to instream</li>
+                    </ul>
+                    <p className="text-primary"><strong>Assets</strong></p>
+                    <ul className="text-black">
+                        <li>YouTube Video</li>
+                        <li>Headline</li>
+                        <li>Description</li>
+                    </ul>
+                    <p className="text-primary"><strong>Device Compatibility</strong></p>
+                    <ul className="text-black">
+                        <li>Desktop</li>
+                        <li>Mobile</li>
+                        <li>Tablet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
       {/* why choose */}
-      <div className="container-fluid pb-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div
             className="section-title text-center position-relative pb-3 mb-5 mx-auto"

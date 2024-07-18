@@ -10,12 +10,15 @@ const ServiceDetails = ({ params }: { params: { title: string } }) => {
 
     if (!matchedService) {
         if (typeof window !== 'undefined') {
-            router.push('/404');
+            router.push('/404'); 
         }
         return null;
     }
   return (
-    <div>{matchedService.title}</div>
+    <div>{matchedService.title}
+
+    </div>
+
   )
 }
 
