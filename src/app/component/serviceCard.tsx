@@ -9,7 +9,7 @@ const ServiceCard: React.FC<ServiceType> = ({ icon, title, description, link, ph
                     <i className={`${icon} text-white`}></i>
                 </div>
                 <h4 className={`mb-3`}>{title}</h4>
-                <p className={`m-0`}>{description}</p>
+                <p className={`m-0`}>{description.slice(0, 110)}</p>
                 <Link className="btn btn-lg btn-primary rounded" href={link}>
                     <i className="bi bi-arrow-right"></i>
                 </Link>

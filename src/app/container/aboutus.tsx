@@ -4,7 +4,7 @@ import Image from "next/image";
 import { AboutImg } from "../Utilis/img";
 import Link from "next/link";
 
-const AboutUs = () => {
+const AboutUsContainer = () => {
   return (
     <div className="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
       <div className="container py-5">
@@ -81,4 +81,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default AboutUsContainer;

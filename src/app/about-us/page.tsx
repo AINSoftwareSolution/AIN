@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { Header } from "../component";
 import { TeamData } from "../Utilis/data";
-import { WhyChooseUs } from "../container";
+import { AboutUsContainer, WhyChooseUs} from "../container";
 
 const AboutUs = () => {
   const breadcrumbLinks = [
@@ -15,6 +15,7 @@ const AboutUs = () => {
     <>
       <Header title="About Us" breadcrumbLinks={breadcrumbLinks} />
 
+      <AboutUsContainer />
       <WhyChooseUs />
 
       {/* Team */}
