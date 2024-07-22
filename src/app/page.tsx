@@ -1,5 +1,5 @@
 import {
-  AboutUs,
+  AboutUsContainer,
   PricingPlan,
   Quote,
   ServicesList,
@@ -9,7 +9,7 @@ import {
 const Home = () => {
   return (
     <div>
-      <AboutUs />
+      <AboutUsContainer />
       <WhyChooseUs />
       <ServicesList />
       <PricingPlan />

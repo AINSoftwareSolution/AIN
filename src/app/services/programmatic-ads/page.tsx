@@ -3,7 +3,6 @@ import {
   WhyImg,
   Display360,
   GoogleADSImg,
-  DV360Img,
   DisplayAndVideo360
 } from "@/app/Utilis/img";
 import Image from "next/image";
