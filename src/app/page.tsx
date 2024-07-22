@@ -1,9 +1,12 @@
+import { The_Girl_Next_Door } from "next/font/google";
+
 import {
   AboutUs,
   PricingPlan,
   Quote,
   ServicesList,
   WhyChooseUs,
+  Testimonial,
 } from "./container";
 
 const Home = () => {
@@ -14,6 +17,7 @@ const Home = () => {
       <ServicesList />
       <PricingPlan />
       <Quote />
+      <Testimonial />
     </div>
   );
 };
