@@ -8,6 +8,11 @@ import WhyImg from "./why-ads.png";
 import Display360 from "./DV360-logo.png";
 import GoogleADSImg from "./Google-Ads.png";
 import DisplayAndVideo360 from "./sec-12.png"
+import Testimonial1 from "./testimonial-1.jpg";
+import Testimonial2 from "./testimonial-2.jpg";
+import Testimonial3 from "./testimonial-3.jpg";
+import Testimonial4 from "./testimonial-4.jpg";
+
 
 
 export {
@@ -21,4 +26,8 @@ export {
   Display360,
   GoogleADSImg,
   DisplayAndVideo360,
+  Testimonial1,
+  Testimonial2,
+  Testimonial3,
+  Testimonial4,
 };

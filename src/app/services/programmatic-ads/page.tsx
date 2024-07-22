@@ -218,7 +218,7 @@ const ProgrammaticsAds = () => {
             className="section-title text-center position-relative pb-3 mx-auto mb-0"
             style={{ maxWidth: "600px" }}
           >
-            <h5 className="fw-bold text-primary text-uppercase">
+            <h5 className="fw-bold text-primary text-uppercase">  
               DV360 vs Google Ads
             </h5>
           </div>
@@ -433,6 +433,16 @@ const ProgrammaticsAds = () => {
     </div>
 </div>
 
+{/* Youtube Ads End */}
+     
+     {/* Rich Media Start */}
+     <div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="container py-5">
+        <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
+            <h5 className="fw-bold text-primary text-uppercase">Rich Media Ads</h5>
+        </div>
+      </div>
+    </div>
 
       {/* why choose */}
       <div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
