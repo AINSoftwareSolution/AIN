@@ -1,7 +1,7 @@
 import { The_Girl_Next_Door } from "next/font/google";
 
 import {
-  AboutUs,
+  AboutUsContainer,
   PricingPlan,
   Quote,
   ServicesList,
@@ -12,7 +12,7 @@ import {
 const Home = () => {
   return (
     <div>
-      <AboutUs />
+      <AboutUsContainer />
       <WhyChooseUs />
       <ServicesList />
       <PricingPlan />
