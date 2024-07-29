@@ -14,7 +14,7 @@ const ProgrammaticsAds = () => {
       <div className="container-fluid bg-primary py-5 bg-header">
         <div className="row d-flex align-items-center justify-content-center py-5">
           <div className="col-12 text-center">
-            <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising </h1>
+            <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising  </h1>
             <h4 className=" text-white text-center custom-heading">
               Bid on ad placements in real-time and reach your target audience
               when they&apos;re most likely to engage with your ads.
@@ -185,7 +185,7 @@ const ProgrammaticsAds = () => {
       </div>
 
 
-      {/* Demand Side Platform (DSP) */}
+      {/* Demand Side Platform (DSP)
       <div className="container-fluid  wow fadeInUp" data-wow-delay="0.1s">
         <div className="container py-5">
           <div
@@ -209,7 +209,7 @@ const ProgrammaticsAds = () => {
           </div>
         </div>
       </div>
-
+ */}
 
       {/* DV360 section 13 */}
       <div className="container-fluid py-1 wow fadeInUp" data-wow-delay="0.1s">
@@ -306,7 +306,7 @@ const ProgrammaticsAds = () => {
               <div className="card">
                 <div className="card-body">
                   <p className="card-title text-black text-center">
-                    Available Rich Media, Audio, Connected TV
+                    Available Rich Media, Audio,Connected TV
                   </p>
                 </div>
               </div>
@@ -347,24 +347,47 @@ const ProgrammaticsAds = () => {
       {/*Display and Video360 */}
 
       <div className="container-fluid py-2 wow fadeInUp" data-wow-delay="0.1s">
-        <div className="container py-5">
-          <div
-            className="section-title text-center position-relative pb-3 mx-auto mb-5"
-            style={{ maxWidth: "600px" }}
-          >
-            <h5 className="fw-bold text-primary text-uppercase">
-              Display & Video 360
-            </h5>
-          </div>
-          <div className="text-center">
-            <Image
-              src={DisplayAndVideo360}
-              alt="display-image"
-              className="img-fluid"
-            />
-          </div>
+  <div className="container py-5">
+    <div className="row">
+      <div className="col-md-6">
+        <div className="text-center pb-2"
+         
+        >
+          <h5 className="fw-bold text-primary text-uppercase">
+            Display & Video 360
+          </h5>
+        </div>
+        <div className="text-center">
+          <Image
+            src={DisplayAndVideo360}
+            alt="display-image"
+            className="img-fluid"
+          />
         </div>
       </div>
+
+      <div className="col-md-6 ">
+        <div className="text-center pb-2"
+        
+        >
+          <h5 className="fw-bold text-primary text-uppercase">
+            Demand Side Platform (DSP)
+          </h5>
+        
+        </div>
+        <div className="text-center d-flex justify-content-center align-items-center py-5">
+          <Image
+            src={Display360}
+            className="img-fluid rounded"  
+            alt="display360"
+            height={100}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
        {/*Display and Video360 end */}
 
@@ -434,15 +457,15 @@ const ProgrammaticsAds = () => {
 </div>
 
 {/* Youtube Ads End */}
-     
-     {/* Rich Media Start */}
+{/*      
+     {/* Rich Media Start 
      <div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
     <div className="container py-5">
         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{maxWidth: "600px"}}>
             <h5 className="fw-bold text-primary text-uppercase">Rich Media Ads</h5>
         </div>
       </div>
-    </div>
+    </div> */}
 
       {/* why choose */}
       <div className="container-fluid pb-2 wow fadeInUp" data-wow-delay="0.1s">
