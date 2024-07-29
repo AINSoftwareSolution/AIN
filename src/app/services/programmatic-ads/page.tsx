@@ -1,3 +1,7 @@
+
+import Image from "next/image";
+import Link from "next/link";
+
 import {
   ads,
   WhyImg,
@@ -5,20 +9,22 @@ import {
   GoogleADSImg,
   DisplayAndVideo360
 } from "@/app/Utilis/img";
-import Image from "next/image";
-import Link from "next/link";
 
 const ProgrammaticsAds = () => {
   return (
     <div>
-      <div className="container-fluid bg-primary py-5 bg-header">
+      <div className="container-fluid bg-primary py-5 mb-4 bg-header">
         <div className="row d-flex align-items-center justify-content-center py-5">
           <div className="col-12 text-center">
-            <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising  </h1>
+            <h1 className="display-4 text-white  animated zoomIn"> Programmatic Advertising </h1>
+
+            <h6 className="text-white my-4 display-6"> PROGRAM + AUTOMATIC </h6>
+
             <h4 className=" text-white text-center custom-heading">
               Bid on ad placements in real-time and reach your target audience
               when they&apos;re most likely to engage with your ads.
             </h4>
+
             <p className="text-white text-center mt-3 custom-paragraph">
               Highlight the potential to see a high return on investment (ROI)
               from programmatic advertising compared to traditional advertising
@@ -29,7 +35,7 @@ const ProgrammaticsAds = () => {
       </div>
 
       {/*  section */}
-      <div className="container-fluid py-0 wow fadeInUp" data-wow-delay="0.1s">
+      <div className="container-fluid py-0 wow fadeInUp mt-4" data-wow-delay="0.1s">
         <div className="container py-5">
           <div className="row g-5 d-flex align-items-center">
             <div className="col-lg-4 col-md-4 col-12">
