@@ -61,7 +61,7 @@ const ServiceDetails = ({ params }: { params: { title: string } }) => {
                   alt="about_us"
                   className="position-absolute w-100 h-100 rounded wow zoomIn"
                   data-wow-delay="0.9s"
-                  src={AboutImg}
+                  src={matchedService.img1}
                   style={{ objectFit: "cover" }}
                 />
               </div>
