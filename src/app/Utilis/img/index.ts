@@ -13,6 +13,11 @@ import Testimonial2 from "./testimonial-2.jpg";
 import Testimonial3 from "./testimonial-3.jpg";
 import Testimonial4 from "./testimonial-4.jpg";
 
+import seoImg from './seo.jpg'
+import socialMediaImg from './social-media-marketing.jpg'
+import websitedesignImg from './website-design.jpg'
+import ppcAds from './ads-ppc.jpg'
+import emailMarketingImg from './email-marketing.jpg'
 
 
 export {
@@ -30,4 +35,5 @@ export {
   Testimonial2,
   Testimonial3,
   Testimonial4,
+  seoImg, socialMediaImg, websitedesignImg, ppcAds, emailMarketingImg
 };
